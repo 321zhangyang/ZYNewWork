@@ -15,6 +15,10 @@
 		52556B6B1E52DA660079BC40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52556B691E52DA660079BC40 /* LaunchScreen.storyboard */; };
 		52556B761E52DA660079BC40 /* ZYNetWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52556B751E52DA660079BC40 /* ZYNetWorkTests.m */; };
 		52556B811E52DA660079BC40 /* ZYNetWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52556B801E52DA660079BC40 /* ZYNetWorkUITests.m */; };
+		52556B961E52DAAA0079BC40 /* YYCacheHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 52556B8F1E52DAA90079BC40 /* YYCacheHelper.m */; };
+		52556B971E52DAAA0079BC40 /* ZYHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 52556B921E52DAA90079BC40 /* ZYHttp.m */; };
+		52556B981E52DAAA0079BC40 /* ZYHttp+YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 52556B941E52DAA90079BC40 /* ZYHttp+YYCache.m */; };
+		F2EDEFE7F9AD62C10492BFCC /* libPods-ZYNetWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1816B2D0FF7AD87249481F06 /* libPods-ZYNetWork.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1816B2D0FF7AD87249481F06 /* libPods-ZYNetWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYNetWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52556B581E52DA660079BC40 /* ZYNetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYNetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52556B5C1E52DA660079BC40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52556B5E1E52DA660079BC40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,14 @@
 		52556B7C1E52DA660079BC40 /* ZYNetWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYNetWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52556B801E52DA660079BC40 /* ZYNetWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYNetWorkUITests.m; sourceTree = "<group>"; };
 		52556B821E52DA660079BC40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52556B8E1E52DAA90079BC40 /* YYCacheHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCacheHelper.h; sourceTree = "<group>"; };
+		52556B8F1E52DAA90079BC40 /* YYCacheHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCacheHelper.m; sourceTree = "<group>"; };
+		52556B911E52DAA90079BC40 /* ZYHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHttp.h; sourceTree = "<group>"; };
+		52556B921E52DAA90079BC40 /* ZYHttp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHttp.m; sourceTree = "<group>"; };
+		52556B931E52DAA90079BC40 /* ZYHttp+YYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZYHttp+YYCache.h"; sourceTree = "<group>"; };
+		52556B941E52DAA90079BC40 /* ZYHttp+YYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZYHttp+YYCache.m"; sourceTree = "<group>"; };
+		CD9DFDA4F43D24182E61504D /* Pods-ZYNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYNetWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYNetWork/Pods-ZYNetWork.debug.xcconfig"; sourceTree = "<group>"; };
+		F4F3B1F6EC3F95BD51044C73 /* Pods-ZYNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYNetWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYNetWork/Pods-ZYNetWork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2EDEFE7F9AD62C10492BFCC /* libPods-ZYNetWork.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +99,8 @@
 				52556B741E52DA660079BC40 /* ZYNetWorkTests */,
 				52556B7F1E52DA660079BC40 /* ZYNetWorkUITests */,
 				52556B591E52DA660079BC40 /* Products */,
+				F71F14160E826DDA26895306 /* Pods */,
+				5514E6374462771D4F1B07DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +117,8 @@
 		52556B5A1E52DA660079BC40 /* ZYNetWork */ = {
 			isa = PBXGroup;
 			children = (
+				52556B901E52DAA90079BC40 /* YYCacheHelper */,
+				52556B951E52DAA90079BC40 /* ZYHttp */,
 				52556B5E1E52DA660079BC40 /* AppDelegate.h */,
 				52556B5F1E52DA660079BC40 /* AppDelegate.m */,
 				52556B611E52DA660079BC40 /* ViewController.h */,
@@ -140,6 +158,45 @@
 			path = ZYNetWorkUITests;
 			sourceTree = "<group>";
 		};
+		52556B901E52DAA90079BC40 /* YYCacheHelper */ = {
+			isa = PBXGroup;
+			children = (
+				52556B8E1E52DAA90079BC40 /* YYCacheHelper.h */,
+				52556B8F1E52DAA90079BC40 /* YYCacheHelper.m */,
+			);
+			name = YYCacheHelper;
+			path = ../../ZYNetWorkd/ZYNetWork/YYCacheHelper;
+			sourceTree = "<group>";
+		};
+		52556B951E52DAA90079BC40 /* ZYHttp */ = {
+			isa = PBXGroup;
+			children = (
+				52556B911E52DAA90079BC40 /* ZYHttp.h */,
+				52556B921E52DAA90079BC40 /* ZYHttp.m */,
+				52556B931E52DAA90079BC40 /* ZYHttp+YYCache.h */,
+				52556B941E52DAA90079BC40 /* ZYHttp+YYCache.m */,
+			);
+			name = ZYHttp;
+			path = ../../ZYNetWorkd/ZYNetWork/ZYHttp;
+			sourceTree = "<group>";
+		};
+		5514E6374462771D4F1B07DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1816B2D0FF7AD87249481F06 /* libPods-ZYNetWork.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F71F14160E826DDA26895306 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD9DFDA4F43D24182E61504D /* Pods-ZYNetWork.debug.xcconfig */,
+				F4F3B1F6EC3F95BD51044C73 /* Pods-ZYNetWork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52556B851E52DA660079BC40 /* Build configuration list for PBXNativeTarget "ZYNetWork" */;
 			buildPhases = (
+				55437FB9015B3CF34C075142 /* [CP] Check Pods Manifest.lock */,
 				52556B541E52DA650079BC40 /* Sources */,
 				52556B551E52DA650079BC40 /* Frameworks */,
 				52556B561E52DA650079BC40 /* Resources */,
+				9E43B7A6CBCD8EF345A77DCC /* [CP] Embed Pods Frameworks */,
+				560181D0DA422417BF50D83D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,13 +328,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55437FB9015B3CF34C075142 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		560181D0DA422417BF50D83D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYNetWork/Pods-ZYNetWork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E43B7A6CBCD8EF345A77DCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYNetWork/Pods-ZYNetWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52556B541E52DA650079BC40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52556B961E52DAAA0079BC40 /* YYCacheHelper.m in Sources */,
 				52556B631E52DA660079BC40 /* ViewController.m in Sources */,
 				52556B601E52DA660079BC40 /* AppDelegate.m in Sources */,
+				52556B981E52DAAA0079BC40 /* ZYHttp+YYCache.m in Sources */,
+				52556B971E52DAAA0079BC40 /* ZYHttp.m in Sources */,
 				52556B5D1E52DA660079BC40 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +533,7 @@
 		};
 		52556B861E52DA660079BC40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD9DFDA4F43D24182E61504D /* Pods-ZYNetWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZYNetWork/Info.plist;
@@ -433,6 +545,7 @@
 		};
 		52556B871E52DA660079BC40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F3B1F6EC3F95BD51044C73 /* Pods-ZYNetWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZYNetWork/Info.plist;
@@ -507,6 +620,7 @@
 				52556B871E52DA660079BC40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52556B881E52DA660079BC40 /* Build configuration list for PBXNativeTarget "ZYNetWorkTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +629,7 @@
 				52556B8A1E52DA660079BC40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52556B8B1E52DA660079BC40 /* Build configuration list for PBXNativeTarget "ZYNetWorkUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +638,7 @@
 				52556B8D1E52DA660079BC40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ZYHttp.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [ZYHttp getRequestUrl:@"http://api2.beikeshushe.com/v1/readgroup/borrowinfo?readGroupId=12" params:nil cache:NO target:self indicator:NO progressBlock:^(NSProgress *progress) {
+        
+    } successBlock:^(id requestDic) {
+        
+    } failBlock:^(NSError *error) {
+        
+    }];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
