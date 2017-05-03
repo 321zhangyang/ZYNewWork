@@ -15,9 +15,6 @@
 		52556B6B1E52DA660079BC40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52556B691E52DA660079BC40 /* LaunchScreen.storyboard */; };
 		52556B761E52DA660079BC40 /* ZYNetWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52556B751E52DA660079BC40 /* ZYNetWorkTests.m */; };
 		52556B811E52DA660079BC40 /* ZYNetWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52556B801E52DA660079BC40 /* ZYNetWorkUITests.m */; };
-		52674B061E5C1D8A004645EB /* ZYHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 52674B031E5C1D8A004645EB /* ZYHttp.m */; };
-		52674B071E5C1D8A004645EB /* ZYHttp+YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 52674B051E5C1D8A004645EB /* ZYHttp+YYCache.m */; };
-		52674B0A1E5C1DA8004645EB /* YYCacheHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 52674B091E5C1DA8004645EB /* YYCacheHelper.m */; };
 		F2EDEFE7F9AD62C10492BFCC /* libPods-ZYNetWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1816B2D0FF7AD87249481F06 /* libPods-ZYNetWork.a */; };
 /* End PBXBuildFile section */
 
@@ -56,12 +53,6 @@
 		52556B7C1E52DA660079BC40 /* ZYNetWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYNetWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52556B801E52DA660079BC40 /* ZYNetWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYNetWorkUITests.m; sourceTree = "<group>"; };
 		52556B821E52DA660079BC40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52674B021E5C1D8A004645EB /* ZYHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHttp.h; sourceTree = "<group>"; };
-		52674B031E5C1D8A004645EB /* ZYHttp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHttp.m; sourceTree = "<group>"; };
-		52674B041E5C1D8A004645EB /* ZYHttp+YYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZYHttp+YYCache.h"; sourceTree = "<group>"; };
-		52674B051E5C1D8A004645EB /* ZYHttp+YYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZYHttp+YYCache.m"; sourceTree = "<group>"; };
-		52674B081E5C1DA8004645EB /* YYCacheHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCacheHelper.h; sourceTree = "<group>"; };
-		52674B091E5C1DA8004645EB /* YYCacheHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCacheHelper.m; sourceTree = "<group>"; };
 		CD9DFDA4F43D24182E61504D /* Pods-ZYNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYNetWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYNetWork/Pods-ZYNetWork.debug.xcconfig"; sourceTree = "<group>"; };
 		F4F3B1F6EC3F95BD51044C73 /* Pods-ZYNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYNetWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYNetWork/Pods-ZYNetWork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,8 +108,6 @@
 		52556B5A1E52DA660079BC40 /* ZYNetWork */ = {
 			isa = PBXGroup;
 			children = (
-				52674B001E5C1D84004645EB /* ZYHttp */,
-				52674B011E5C1D84004645EB /* YYCacheHelper */,
 				52556B5E1E52DA660079BC40 /* AppDelegate.h */,
 				52556B5F1E52DA660079BC40 /* AppDelegate.m */,
 				52556B611E52DA660079BC40 /* ViewController.h */,
@@ -156,26 +145,6 @@
 				52556B821E52DA660079BC40 /* Info.plist */,
 			);
 			path = ZYNetWorkUITests;
-			sourceTree = "<group>";
-		};
-		52674B001E5C1D84004645EB /* ZYHttp */ = {
-			isa = PBXGroup;
-			children = (
-				52674B021E5C1D8A004645EB /* ZYHttp.h */,
-				52674B031E5C1D8A004645EB /* ZYHttp.m */,
-				52674B041E5C1D8A004645EB /* ZYHttp+YYCache.h */,
-				52674B051E5C1D8A004645EB /* ZYHttp+YYCache.m */,
-			);
-			path = ZYHttp;
-			sourceTree = "<group>";
-		};
-		52674B011E5C1D84004645EB /* YYCacheHelper */ = {
-			isa = PBXGroup;
-			children = (
-				52674B081E5C1DA8004645EB /* YYCacheHelper.h */,
-				52674B091E5C1DA8004645EB /* YYCacheHelper.m */,
-			);
-			path = YYCacheHelper;
 			sourceTree = "<group>";
 		};
 		5514E6374462771D4F1B07DC /* Frameworks */ = {
@@ -339,7 +308,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		560181D0DA422417BF50D83D /* [CP] Copy Pods Resources */ = {
@@ -381,10 +350,7 @@
 			files = (
 				52556B631E52DA660079BC40 /* ViewController.m in Sources */,
 				52556B601E52DA660079BC40 /* AppDelegate.m in Sources */,
-				52674B061E5C1D8A004645EB /* ZYHttp.m in Sources */,
 				52556B5D1E52DA660079BC40 /* main.m in Sources */,
-				52674B0A1E5C1DA8004645EB /* YYCacheHelper.m in Sources */,
-				52674B071E5C1D8A004645EB /* ZYHttp+YYCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

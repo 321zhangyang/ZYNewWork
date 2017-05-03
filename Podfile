@@ -6,4 +6,6 @@ pod 'AFNetworking'
 
 pod 'YYKit'
 
+pod 'MBProgressHUD'
+
 end
