@@ -14,14 +14,14 @@
 		52556B6B1E52DA660079BC40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52556B691E52DA660079BC40 /* LaunchScreen.storyboard */; };
 		52556B761E52DA660079BC40 /* ZYNetWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52556B751E52DA660079BC40 /* ZYNetWorkTests.m */; };
 		52556B811E52DA660079BC40 /* ZYNetWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52556B801E52DA660079BC40 /* ZYNetWorkUITests.m */; };
-		9FA7D7551EB98097008CF724 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7D7471EB98097008CF724 /* 1.jpg */; };
-		9FA7D7561EB98097008CF724 /* ZYNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7D7491EB98097008CF724 /* ZYNetWorking.m */; };
-		9FA7D7571EB98097008CF724 /* ZYServerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7D74B1EB98097008CF724 /* ZYServerConfig.m */; };
-		9FA7D7581EB98097008CF724 /* ZYCacheHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7D74D1EB98097008CF724 /* ZYCacheHelper.m */; };
-		9FA7D7591EB98097008CF724 /* ZYAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7D74F1EB98097008CF724 /* ZYAppDotNetAPIClient.m */; };
-		9FA7D75A1EB98097008CF724 /* ZYHUDHeaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7D7521EB98097008CF724 /* ZYHUDHeaper.m */; };
-		9FA7D75B1EB98097008CF724 /* ZYHUDHeaper.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7D7531EB98097008CF724 /* ZYHUDHeaper.bundle */; };
-		9FA7D75E1EB980A7008CF724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA7D75D1EB980A7008CF724 /* Main.storyboard */; };
+		9F225AC01EBB006600F80CF5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F225ABF1EBB006600F80CF5 /* 1.jpg */; };
+		9F225ACA1EBB007900F80CF5 /* ZYAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F225AC31EBB007900F80CF5 /* ZYAppDotNetAPIClient.m */; };
+		9F225ACB1EBB007900F80CF5 /* ZYCacheHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F225AC51EBB007900F80CF5 /* ZYCacheHelper.m */; };
+		9F225ACC1EBB007900F80CF5 /* ZYNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F225AC71EBB007900F80CF5 /* ZYNetWorking.m */; };
+		9F225ACD1EBB007900F80CF5 /* ZYServerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F225AC91EBB007900F80CF5 /* ZYServerConfig.m */; };
+		9F225AD21EBB007F00F80CF5 /* ZYHUDHeaper.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9F225ACF1EBB007F00F80CF5 /* ZYHUDHeaper.bundle */; };
+		9F225AD31EBB007F00F80CF5 /* ZYHUDHeaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F225AD11EBB007F00F80CF5 /* ZYHUDHeaper.m */; };
+		9F225AD51EBB009A00F80CF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F225AD41EBB009A00F80CF5 /* Main.storyboard */; };
 		F2EDEFE7F9AD62C10492BFCC /* libPods-ZYNetWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1816B2D0FF7AD87249481F06 /* libPods-ZYNetWork.a */; };
 /* End PBXBuildFile section */
 
@@ -59,19 +59,19 @@
 		52556B7C1E52DA660079BC40 /* ZYNetWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYNetWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52556B801E52DA660079BC40 /* ZYNetWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYNetWorkUITests.m; sourceTree = "<group>"; };
 		52556B821E52DA660079BC40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FA7D7471EB98097008CF724 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../ZYNetWorking/ZYNetWorking/1.jpg; sourceTree = "<group>"; };
-		9FA7D7481EB98097008CF724 /* ZYNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNetWorking.h; sourceTree = "<group>"; };
-		9FA7D7491EB98097008CF724 /* ZYNetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYNetWorking.m; sourceTree = "<group>"; };
-		9FA7D74A1EB98097008CF724 /* ZYServerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYServerConfig.h; sourceTree = "<group>"; };
-		9FA7D74B1EB98097008CF724 /* ZYServerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYServerConfig.m; sourceTree = "<group>"; };
-		9FA7D74C1EB98097008CF724 /* ZYCacheHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCacheHelper.h; sourceTree = "<group>"; };
-		9FA7D74D1EB98097008CF724 /* ZYCacheHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCacheHelper.m; sourceTree = "<group>"; };
-		9FA7D74E1EB98097008CF724 /* ZYAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAppDotNetAPIClient.h; sourceTree = "<group>"; };
-		9FA7D74F1EB98097008CF724 /* ZYAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAppDotNetAPIClient.m; sourceTree = "<group>"; };
-		9FA7D7511EB98097008CF724 /* ZYHUDHeaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHUDHeaper.h; sourceTree = "<group>"; };
-		9FA7D7521EB98097008CF724 /* ZYHUDHeaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHUDHeaper.m; sourceTree = "<group>"; };
-		9FA7D7531EB98097008CF724 /* ZYHUDHeaper.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYHUDHeaper.bundle; sourceTree = "<group>"; };
-		9FA7D75C1EB980A7008CF724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F225ABF1EBB006600F80CF5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		9F225AC21EBB007900F80CF5 /* ZYAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAppDotNetAPIClient.h; sourceTree = "<group>"; };
+		9F225AC31EBB007900F80CF5 /* ZYAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYAppDotNetAPIClient.m; sourceTree = "<group>"; };
+		9F225AC41EBB007900F80CF5 /* ZYCacheHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCacheHelper.h; sourceTree = "<group>"; };
+		9F225AC51EBB007900F80CF5 /* ZYCacheHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCacheHelper.m; sourceTree = "<group>"; };
+		9F225AC61EBB007900F80CF5 /* ZYNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNetWorking.h; sourceTree = "<group>"; };
+		9F225AC71EBB007900F80CF5 /* ZYNetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYNetWorking.m; sourceTree = "<group>"; };
+		9F225AC81EBB007900F80CF5 /* ZYServerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYServerConfig.h; sourceTree = "<group>"; };
+		9F225AC91EBB007900F80CF5 /* ZYServerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYServerConfig.m; sourceTree = "<group>"; };
+		9F225ACF1EBB007F00F80CF5 /* ZYHUDHeaper.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYHUDHeaper.bundle; sourceTree = "<group>"; };
+		9F225AD01EBB007F00F80CF5 /* ZYHUDHeaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHUDHeaper.h; sourceTree = "<group>"; };
+		9F225AD11EBB007F00F80CF5 /* ZYHUDHeaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHUDHeaper.m; sourceTree = "<group>"; };
+		9F225AD41EBB009A00F80CF5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CD9DFDA4F43D24182E61504D /* Pods-ZYNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYNetWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYNetWork/Pods-ZYNetWork.debug.xcconfig"; sourceTree = "<group>"; };
 		F4F3B1F6EC3F95BD51044C73 /* Pods-ZYNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYNetWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYNetWork/Pods-ZYNetWork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,14 +127,14 @@
 		52556B5A1E52DA660079BC40 /* ZYNetWork */ = {
 			isa = PBXGroup;
 			children = (
-				9FA7D7471EB98097008CF724 /* 1.jpg */,
-				9FA7D7501EB98097008CF724 /* ZYNetWorking */,
-				9FA7D7541EB98097008CF724 /* ZYHUDHeaper */,
+				9F225ABF1EBB006600F80CF5 /* 1.jpg */,
+				9F225ACE1EBB007F00F80CF5 /* ZYHUDHeaper */,
+				9F225AC11EBB007900F80CF5 /* ZYNetWorking */,
 				52556B5E1E52DA660079BC40 /* AppDelegate.h */,
 				52556B5F1E52DA660079BC40 /* AppDelegate.m */,
 				52556B611E52DA660079BC40 /* ViewController.h */,
 				52556B621E52DA660079BC40 /* ViewController.m */,
-				9FA7D75D1EB980A7008CF724 /* Main.storyboard */,
+				9F225AD41EBB009A00F80CF5 /* Main.storyboard */,
 				52556B671E52DA660079BC40 /* Assets.xcassets */,
 				52556B691E52DA660079BC40 /* LaunchScreen.storyboard */,
 				52556B6C1E52DA660079BC40 /* Info.plist */,
@@ -177,31 +177,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9FA7D7501EB98097008CF724 /* ZYNetWorking */ = {
+		9F225AC11EBB007900F80CF5 /* ZYNetWorking */ = {
 			isa = PBXGroup;
 			children = (
-				9FA7D7481EB98097008CF724 /* ZYNetWorking.h */,
-				9FA7D7491EB98097008CF724 /* ZYNetWorking.m */,
-				9FA7D74A1EB98097008CF724 /* ZYServerConfig.h */,
-				9FA7D74B1EB98097008CF724 /* ZYServerConfig.m */,
-				9FA7D74C1EB98097008CF724 /* ZYCacheHelper.h */,
-				9FA7D74D1EB98097008CF724 /* ZYCacheHelper.m */,
-				9FA7D74E1EB98097008CF724 /* ZYAppDotNetAPIClient.h */,
-				9FA7D74F1EB98097008CF724 /* ZYAppDotNetAPIClient.m */,
+				9F225AC21EBB007900F80CF5 /* ZYAppDotNetAPIClient.h */,
+				9F225AC31EBB007900F80CF5 /* ZYAppDotNetAPIClient.m */,
+				9F225AC41EBB007900F80CF5 /* ZYCacheHelper.h */,
+				9F225AC51EBB007900F80CF5 /* ZYCacheHelper.m */,
+				9F225AC61EBB007900F80CF5 /* ZYNetWorking.h */,
+				9F225AC71EBB007900F80CF5 /* ZYNetWorking.m */,
+				9F225AC81EBB007900F80CF5 /* ZYServerConfig.h */,
+				9F225AC91EBB007900F80CF5 /* ZYServerConfig.m */,
 			);
-			name = ZYNetWorking;
-			path = ../../../ZYNetWorking/ZYNetWorking/ZYNetWorking;
+			path = ZYNetWorking;
 			sourceTree = "<group>";
 		};
-		9FA7D7541EB98097008CF724 /* ZYHUDHeaper */ = {
+		9F225ACE1EBB007F00F80CF5 /* ZYHUDHeaper */ = {
 			isa = PBXGroup;
 			children = (
-				9FA7D7511EB98097008CF724 /* ZYHUDHeaper.h */,
-				9FA7D7521EB98097008CF724 /* ZYHUDHeaper.m */,
-				9FA7D7531EB98097008CF724 /* ZYHUDHeaper.bundle */,
+				9F225ACF1EBB007F00F80CF5 /* ZYHUDHeaper.bundle */,
+				9F225AD01EBB007F00F80CF5 /* ZYHUDHeaper.h */,
+				9F225AD11EBB007F00F80CF5 /* ZYHUDHeaper.m */,
 			);
-			name = ZYHUDHeaper;
-			path = ../../../ZYNetWorking/ZYNetWorking/ZYHUDHeaper;
+			path = ZYHUDHeaper;
 			sourceTree = "<group>";
 		};
 		F71F14160E826DDA26895306 /* Pods */ = {
@@ -323,9 +321,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				52556B6B1E52DA660079BC40 /* LaunchScreen.storyboard in Resources */,
-				9FA7D75E1EB980A7008CF724 /* Main.storyboard in Resources */,
-				9FA7D75B1EB98097008CF724 /* ZYHUDHeaper.bundle in Resources */,
-				9FA7D7551EB98097008CF724 /* 1.jpg in Resources */,
+				9F225AD21EBB007F00F80CF5 /* ZYHUDHeaper.bundle in Resources */,
+				9F225AC01EBB006600F80CF5 /* 1.jpg in Resources */,
+				9F225AD51EBB009A00F80CF5 /* Main.storyboard in Resources */,
 				52556B681E52DA660079BC40 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,14 +397,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FA7D7561EB98097008CF724 /* ZYNetWorking.m in Sources */,
-				9FA7D75A1EB98097008CF724 /* ZYHUDHeaper.m in Sources */,
-				9FA7D7591EB98097008CF724 /* ZYAppDotNetAPIClient.m in Sources */,
-				9FA7D7571EB98097008CF724 /* ZYServerConfig.m in Sources */,
+				9F225ACC1EBB007900F80CF5 /* ZYNetWorking.m in Sources */,
+				9F225AD31EBB007F00F80CF5 /* ZYHUDHeaper.m in Sources */,
+				9F225ACA1EBB007900F80CF5 /* ZYAppDotNetAPIClient.m in Sources */,
 				52556B631E52DA660079BC40 /* ViewController.m in Sources */,
+				9F225ACB1EBB007900F80CF5 /* ZYCacheHelper.m in Sources */,
 				52556B601E52DA660079BC40 /* AppDelegate.m in Sources */,
 				52556B5D1E52DA660079BC40 /* main.m in Sources */,
-				9FA7D7581EB98097008CF724 /* ZYCacheHelper.m in Sources */,
+				9F225ACD1EBB007900F80CF5 /* ZYServerConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,15 +446,6 @@
 				52556B6A1E52DA660079BC40 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		9FA7D75D1EB980A7008CF724 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9FA7D75C1EB980A7008CF724 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ../../../ZYNetWorking/ZYNetWorking;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
